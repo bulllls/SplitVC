@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B8654AA2406ADCB0055ACAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8654A92406ADCB0055ACAF /* AppDelegate.swift */; };
-		9B8654AC2406ADCB0055ACAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8654AB2406ADCB0055ACAF /* SceneDelegate.swift */; };
 		9B8654AE2406ADCB0055ACAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8654AD2406ADCB0055ACAF /* ViewController.swift */; };
-		9B8654B12406ADCB0055ACAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8654AF2406ADCB0055ACAF /* Main.storyboard */; };
 		9B8654B32406ADCD0055ACAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B8654B22406ADCD0055ACAF /* Assets.xcassets */; };
 		9B8654B62406ADCD0055ACAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8654B42406ADCD0055ACAF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		9B8654A62406ADCB0055ACAF /* SplitVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B8654A92406ADCB0055ACAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B8654AB2406ADCB0055ACAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9B8654AD2406ADCB0055ACAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9B8654B02406ADCB0055ACAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B8654B22406ADCD0055ACAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B8654B52406ADCD0055ACAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B8654B72406ADCD0055ACAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				9B8654A92406ADCB0055ACAF /* AppDelegate.swift */,
-				9B8654AB2406ADCB0055ACAF /* SceneDelegate.swift */,
 				9B8654AD2406ADCB0055ACAF /* ViewController.swift */,
-				9B8654AF2406ADCB0055ACAF /* Main.storyboard */,
 				9B8654B22406ADCD0055ACAF /* Assets.xcassets */,
 				9B8654B42406ADCD0055ACAF /* LaunchScreen.storyboard */,
 				9B8654B72406ADCD0055ACAF /* Info.plist */,
@@ -127,7 +121,6 @@
 			files = (
 				9B8654B62406ADCD0055ACAF /* LaunchScreen.storyboard in Resources */,
 				9B8654B32406ADCD0055ACAF /* Assets.xcassets in Resources */,
-				9B8654B12406ADCB0055ACAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +133,12 @@
 			files = (
 				9B8654AE2406ADCB0055ACAF /* ViewController.swift in Sources */,
 				9B8654AA2406ADCB0055ACAF /* AppDelegate.swift in Sources */,
-				9B8654AC2406ADCB0055ACAF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9B8654AF2406ADCB0055ACAF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B8654B02406ADCB0055ACAF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9B8654B42406ADCD0055ACAF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +271,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W85ZZMYXUT;
 				INFOPLIST_FILE = SplitVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W85ZZMYXUT;
 				INFOPLIST_FILE = SplitVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
